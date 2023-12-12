@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logoPlant"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30sp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/plant_logo"
+        android:contentDescription="@string/app_logo"/>
+
+    <TextView
+        android:id="@+id/loginTitleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_below="@+id/logoPlant"
+        android:text="@string/hello_welcome_back_farmer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rubik"/>
+
+    <TextView
+        android:id="@+id/loginToContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="@string/login_to_continue"
+        android:layout_below="@+id/loginTitleID"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/loginUsernameID"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@+id/loginToContinue"
+        android:hint="@string/enter_your_username"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:background="@drawable/style_et_rounded"/>
+
+    <EditText
+        android:id="@+id/loginPasswordID"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_below="@+id/loginUsernameID"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:background="@drawable/style_et_rounded"
+        android:autofillHints="password" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_below="@+id/loginPasswordID"
+        android:layout_alignParentEnd="true"
+        android:text="@string/forgot_password"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/loginButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_below="@+id/forgotPassword"
+        android:background="@drawable/style_bt_rounded"
+        android:text="@string/login"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ifNoAccountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButtonID"
+        android:text="@string/no_account_sign_up"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

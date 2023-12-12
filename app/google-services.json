@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519503249288",
+    "project_id": "kotlin-farmer-app",
+    "storage_bucket": "kotlin-farmer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519503249288:android:668527b1caac186ffc843d",
+        "android_client_info": {
+          "package_name": "com.example.zinebregouikotlinassignement02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLvKHhrCkr-JJb-6DZm4-TQtWi6K4_7_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
