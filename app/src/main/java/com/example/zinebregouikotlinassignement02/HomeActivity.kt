@@ -20,6 +20,7 @@ class HomeActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+
         val drawer = findViewById<DrawerLayout>(R.id.drawerLayout)
         val navigation = findViewById<NavigationView>(R.id.navView)
 
